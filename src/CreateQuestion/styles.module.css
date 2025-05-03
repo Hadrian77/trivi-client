@@ -1,0 +1,27 @@
+.label {
+    display: block;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px;
+    
+}
+
+.choice{
+
+    padding: 8px;
+
+}
+
+.tag label{
+    display: inline;
+    padding: 5px;
+}
+
+.tag{
+
+    padding: 8px;
+
+}

@@ -1,12 +1,8 @@
-import { useState } from 'react'
 import './App.css'
-import NewQuestion from './NewQuestion'
+import CreateQuestion from './CreateQuestion/CreateQuestion.tsx'
 
 function App() {
-  
-  
-
-  return (<NewQuestion />)
+  return (<CreateQuestion />)
 }
 
 export default App
