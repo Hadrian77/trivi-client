@@ -39,7 +39,6 @@ function CreateQuestion() {
 
     function handleChoiceAdd(): void {
         if (choices.length < 4) {
-            let len = choices.length + 1;
             setChoices([...choices, { value: "", key: uuidv4() }]);
         }
     }
@@ -59,7 +58,6 @@ function CreateQuestion() {
     }
 
     function handleTagAdd(): void {
-        let len = tags.length + 1;
         setTags([...tags, { value: "", key: uuidv4() }]);
 
     }
